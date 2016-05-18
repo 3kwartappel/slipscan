@@ -1,0 +1,52 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-apprate": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "com.synconset.ImagePickerExt": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "slipscan.driekwartappel"
+        }
+    }
+}

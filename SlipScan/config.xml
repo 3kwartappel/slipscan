@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget defaultlocale="en-US" id="slipscan.driekwartappel" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+  <name>SlipScan</name>
+  <description>Scan your slips / receipts and index it</description>
+  <author email="davidjacobussmit@gmail.com" href="http://www.smit.co.za">David Smit</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <vs:features>
+  </vs:features>
+  <preference name="webviewbounce" value="false" />
+  <preference name="UIWebViewBounce" value="false" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="FadeSplashScreenDuration" value="700" />
+  <preference name="SplashScreenDelay" value="4000" />
+  <preference name="SplashMaintainAspectRatio" value="true" />
+  <preference name="SplashReloadOnOrientationChange" value="true" />
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar" />
+  </feature>
+  <platform name="android">
+    <splash density="land-ldpi" src="resources\android\splash\drawable-land-ldpi-screen.png" />
+    <splash density="land-mdpi" src="resources\android\splash\drawable-land-mdpi-screen.png" />
+    <splash density="land-hdpi" src="resources\android\splash\drawable-land-hdpi-screen.png" />
+    <splash density="land-xhdpi" src="resources\android\splash\drawable-land-xhdpi-screen.png" />
+    <splash density="land-xxhdpi" src="resources\android\splash\drawable-land-xxhdpi-screen.png" />
+    <splash density="land-xxxhdpi" src="resources\android\splash\drawable-land-xxxhdpi-screen.png" />
+    <splash density="port-ldpi" src="resources\android\splash\drawable-port-ldpi-screen.png" />
+    <splash density="port-mdpi" src="resources\android\splash\drawable-port-mdpi-screen.png" />
+    <splash density="port-hdpi" src="resources\android\splash\drawable-port-hdpi-screen.png" />
+    <splash density="port-xhdpi" src="resources\android\splash\drawable-port-xhdpi-screen.png" />
+    <splash density="port-xxhdpi" src="resources\android\splash\drawable-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="resources\android\splash\drawable-port-xxxhdpi-screen.png" />
+    <icon density="ldpi" src="resources\android\icon\drawable-ldpi-icon.png" />
+    <icon density="mdpi" src="resources\android\icon\drawable-mdpi-icon.png" />
+    <icon density="hdpi" src="resources\android\icon\drawable-hdpi-icon.png" />
+    <icon density="xhdpi" src="resources\android\icon\drawable-xhdpi-icon.png" />
+    <icon density="xxhdpi" src="resources\android\icon\drawable-xxhdpi-icon.png" />
+    <icon density="xxxhdpi" src="resources\android\icon\drawable-xxxhdpi-icon.png" />
+  </platform>
+  <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
+  <plugin name="cordova-plugin-camera" version="2.2.0" />
+  <plugin name="cordova-plugin-file" version="4.2.0" />
+  <plugin name="cordova-plugin-file-transfer" version="1.5.1" />
+  <plugin name="cordova-plugin-globalization" version="1.0.3" />
+  <plugin name="cordova-plugin-whitelist" version="1.2.2" />
+  <plugin name="cordova-plugin-dialogs" version="1.2.1" />
+  <plugin name="cordova-plugin-splashscreen" version="3.2.2" />
+  <plugin name="cordova-plugin-statusbar" version="2.1.3" />
+  <!--<plugin name="cordova-plugin-inappbrowser" version="1.4.0" />-->
+  <plugin name="cordova-plugin-image-picker" src="https://github.com/wymsee/cordova-imagePicker.git" version="1.0.8" />
+  <plugin name="cordova-plugin-apprate" src="https://github.com/pushandplay/cordova-plugin-apprate.git" version="1.1.7" />
+  <plugin name="com.synconset.ImagePickerExt" spec="https://github.com/b-alidra/-cordova-imagePickerEx.git" />
+  <plugin name="cordova-plugin-compat" version="1.0.0" />
+  <!--<plugin name="cordova-plugin-inappbrowser" version="1.4.0" />-->
+  <plugin name="cordova-plugin-file-opener2" version="2.0.2" src="https://github.com/pwlin/cordova-plugin-file-opener2" />
+</widget>

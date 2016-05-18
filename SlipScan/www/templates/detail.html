@@ -1,0 +1,41 @@
+<ion-view title="Detail">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <p ng-show="{{showBackButton}}"><strong>Receipt successfully uploaded!</strong></p>
+        <ion-list>
+            <ion-item class="item-thumbnail-left">
+                <img ng-src="{{filename}}" ng-click='openImage("{{filename}}")'>
+                <h2>{{receiptDetail.date}}</h2>
+                <p>{{receiptDetail.description}}</p>
+            </ion-item>
+        </ion-list>
+      
+        <ion-list></ion-list>
+        <div>
+            <p>
+                <strong>Category</strong>: {{receiptDetail.category}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <strong>Date</strong>: {{receiptDetail.date}}
+            </p>
+        </div><div>
+            <p>
+                <strong>Company</strong>: {{receiptDetail.company}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <strong>Amount</strong>: {{receiptDetail.amount}}
+            </p>
+        </div>
+        <div>
+            <p>
+                <strong>Distance</strong>: {{receiptDetail.distance}}
+            </p>
+        </div>
+        <!--<button class="button button-stable button-block ">Delete</button>-->
+        <button ng-show="{{showBackButton}}" ng-click="backHomeClick()" class="button button-positive button-block  icon-left ion-home">Back Home</button>
+
+      </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view title="Slipscan">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="button-bar"></div>
+        <div>
+            <h3 style="text-align:center">
+                Archive your receipts <strong>today</strong> <i class="icon ion-happy-outline"></i>
+            </h3>
+        </div>
+        <button class="button button-positive button-block  icon-left ion-android-camera" ng-click="newReceiptClick()">New Receipt</button>
+        <div ng-show="newReceiptClicked">
+            <button ng-click="cameraClick()" class="button button-stable button-block  icon-right ion-android-camera">From Camera</button>
+            <button ng-click="galleryClick()" class="button button-stable button-block  icon-right ion-folder">From Gallery</button>
+        </div>
+        <a href="#/app/history" class="button button-light button-block  icon-left ion-ios-pricetag">History</a>
+
+    </ion-content>
+</ion-view>
+
+

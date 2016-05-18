@@ -1,0 +1,32 @@
+<ion-view title="History">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="buttons">
+            <button class="button  button-block icon-left  ion-android-search"
+                    ng-click="showFilterBar()">  Search previous receipts</button>
+        </div>   
+        <ion-list>
+            <ion-item collection-repeat="item in items" ui-sref="app.detail({filename: item.filename})">
+                <div>
+                    <p>
+                        <strong>Date</strong>: {{item.date}}
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <strong>Description</strong>: {{item.description}}
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <strong>Category</strong>: {{item.category}}
+                    </p>
+                </div>
+                <!--<ui-thumbnail src="item.nativeURL"></ui-thumbnail>-->
+            </ion-item>
+        </ion-list>
+
+        <div>
+            <p ng-show="!items.length">No previous images could be found</p>
+        </div>
+    </ion-content>
+</ion-view>
